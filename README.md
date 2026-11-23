@@ -38,7 +38,6 @@ Prompts: `today`, `week`, `log`. Cards follow both MCP Apps (`ui://foodoo/card-v
 - `.claude-plugin/marketplace.json`, `plugins/foodoo/` — the Claude Code plugin (MCP server, the `foodoo` skill, `/foodoo:today`, `/foodoo:week`, `/foodoo:log`)
 - `gemini-extension.json`, `GEMINI.md`, `commands/foodoo/*.toml` — the Gemini CLI extension (`/foodoo:today`…)
 - `skills/foodoo/` — the skill for claude.ai (zip it with `scripts/build-skill-zip.sh`)
-- `submissions/` — texts for the Claude connectors directory and the ChatGPT app directory
 
 The server lives in foodoo-server (`src/mcp`, `src/routes/mcp.ts`, OAuth in `src/routes/link.ts`).
 
