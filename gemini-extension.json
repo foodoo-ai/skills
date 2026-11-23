@@ -1,0 +1,11 @@
+{
+  "name": "foodoo",
+  "version": "1.0.0",
+  "description": "Your Foodoo food diary in Gemini CLI: log meals from words or photos, see your day and week, correct dishes, add water.",
+  "mcpServers": {
+    "foodoo": {
+      "httpUrl": "https://api.foodoo.fit/mcp"
+    }
+  },
+  "contextFileName": "GEMINI.md"
+}

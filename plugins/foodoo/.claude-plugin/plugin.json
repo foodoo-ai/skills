@@ -1,0 +1,23 @@
+{
+  "name": "foodoo",
+  "version": "1.0.0",
+  "description": "Your Foodoo food diary in Claude Code: log meals from words or photos, see today and recent days, correct dishes, add water.",
+  "author": {
+    "name": "Foodoo",
+    "url": "https://foodoo.fit"
+  },
+  "homepage": "https://foodoo.fit/ai",
+  "repository": "https://github.com/maratmuslimov/foodoo-ai",
+  "license": "MIT",
+  "keywords": [
+    "food",
+    "nutrition",
+    "calories",
+    "diary",
+    "health",
+    "mcp"
+  ],
+  "icon": ".claude-plugin/icon.png",
+  "privacyPolicyUrl": "https://foodoo.fit/privacy",
+  "termsOfServiceUrl": "https://foodoo.fit/terms"
+}

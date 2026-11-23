@@ -1,0 +1,6 @@
+description = "Log a meal in Foodoo"
+prompt = """
+Log this meal in my Foodoo diary with log_food, passing my words as they are: {{args}}
+
+Then tell me in one line what was logged.
+"""

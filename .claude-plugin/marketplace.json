@@ -1,0 +1,18 @@
+{
+  "name": "foodoo",
+  "owner": { "name": "Foodoo", "url": "https://foodoo.fit" },
+  "metadata": {
+    "description": "Foodoo, the food diary, in Claude Code: log food by words or photos, see your day and week.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "foodoo",
+      "source": "./plugins/foodoo",
+      "description": "Your Foodoo food diary: log meals from words or photos, see today and recent days, correct dishes, add water.",
+      "version": "1.0.0",
+      "category": "productivity",
+      "homepage": "https://foodoo.fit/ai"
+    }
+  ]
+}
