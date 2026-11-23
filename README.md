@@ -30,7 +30,7 @@ Your [Foodoo](https://foodoo.fit) food diary in Claude, ChatGPT, Gemini, Cursor,
 | `delete_entry` | Removes a dish |
 | `add_water` / `remove_water` | Water |
 
-Prompts: `today`, `week`, `log`. Cards follow both MCP Apps (`ui://foodoo/card-v1.html`) and the ChatGPT Apps SDK.
+Prompts: `today`, `week`, `log`. Cards follow both MCP Apps (`ui://foodoo/card-v3.html`) and the ChatGPT Apps SDK.
 
 ## What's here
 
