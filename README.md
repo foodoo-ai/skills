@@ -10,8 +10,9 @@ Your [Foodoo](https://foodoo.fit) food diary in Claude, ChatGPT, Gemini, Cursor,
 |---|---|
 | Claude (web, desktop, mobile) | Settings → Connectors → Add custom connector → `https://api.foodoo.fit/mcp`. For the skill: `./scripts/build-skill-zip.sh`, then Settings → Capabilities → Skills → Upload `dist/foodoo-skill.zip` |
 | ChatGPT | Apps → Foodoo → Connect. Until it is listed: Developer mode → create an app with `https://api.foodoo.fit/mcp` |
-| Claude Code | `/plugin marketplace add maratmuslimov/foodoo-ai`, then `/plugin install foodoo@foodoo`; sign in with `/mcp` |
-| Gemini CLI | `gemini extensions install https://github.com/maratmuslimov/foodoo-ai`, then `/mcp auth foodoo` |
+| Claude Code | `/plugin marketplace add foodoo-ai/skills`, then `/plugin install foodoo@foodoo`; sign in with `/mcp` |
+| Gemini (app and web) | Settings → Connected apps → Custom → Cloud MCP server → `https://api.foodoo.fit/mcp`, then confirm the code |
+| Gemini CLI | `gemini extensions install https://github.com/foodoo-ai/skills`, then `/mcp auth foodoo` |
 | Codex | add `[mcp_servers.foodoo]` with `url = "https://api.foodoo.fit/mcp"` to `~/.codex/config.toml`, then `codex mcp login foodoo` |
 | Cursor, VS Code, others | a remote MCP server with the URL above: `{"mcpServers": {"foodoo": {"url": "https://api.foodoo.fit/mcp"}}}` |
 
