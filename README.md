@@ -2,19 +2,19 @@
 
 Your [Foodoo](https://foodoo.fit) food diary in Claude, ChatGPT, Gemini, Cursor, VS Code and any other MCP client: log meals from your own words or a photo, see your day as a card, look back over weeks and months, put a dish right by words, add water. Everything you log there shows up in the Foodoo app at once.
 
-**MCP server:** `https://api.foodoo.fit/mcp` (Streamable HTTP, OAuth 2.1 — you confirm a code in the Foodoo app or on foodoo.fit).
+**MCP server:** `https://mcp.foodoo.fit` (Streamable HTTP, OAuth 2.1 — you confirm a code in the Foodoo app or on foodoo.fit).
 
 ## Install
 
 | Where | How |
 |---|---|
-| Claude (web, desktop, mobile) | Settings → Connectors → Add custom connector → `https://api.foodoo.fit/mcp`. For the skill: `./scripts/build-skill-zip.sh`, then Settings → Capabilities → Skills → Upload `dist/foodoo-skill.zip` |
-| ChatGPT | Apps → Foodoo → Connect. Until it is listed: Developer mode → create an app with `https://api.foodoo.fit/mcp` |
+| Claude (web, desktop, mobile) | Settings → Connectors → Add custom connector → `https://mcp.foodoo.fit`. For the skill: `./scripts/build-skill-zip.sh`, then Settings → Capabilities → Skills → Upload `dist/foodoo-skill.zip` |
+| ChatGPT | Apps → Foodoo → Connect. Until it is listed: Developer mode → create an app with `https://mcp.foodoo.fit` |
 | Claude Code | `/plugin marketplace add foodoo-ai/skills`, then `/plugin install foodoo@foodoo`; sign in with `/mcp` |
-| Gemini (app and web) | Settings → Connected apps → Custom → Cloud MCP server → `https://api.foodoo.fit/mcp`, then confirm the code |
+| Gemini (app and web) | Settings → Connected apps → Custom → Cloud MCP server → `https://mcp.foodoo.fit`, then confirm the code |
 | Gemini CLI | `gemini extensions install https://github.com/foodoo-ai/skills`, then `/mcp auth foodoo` |
-| Codex | add `[mcp_servers.foodoo]` with `url = "https://api.foodoo.fit/mcp"` to `~/.codex/config.toml`, then `codex mcp login foodoo` |
-| Cursor, VS Code, others | a remote MCP server with the URL above: `{"mcpServers": {"foodoo": {"url": "https://api.foodoo.fit/mcp"}}}` |
+| Codex | add `[mcp_servers.foodoo]` with `url = "https://mcp.foodoo.fit"` to `~/.codex/config.toml`, then `codex mcp login foodoo` |
+| Cursor, VS Code, others | a remote MCP server with the URL above: `{"mcpServers": {"foodoo": {"url": "https://mcp.foodoo.fit"}}}` |
 
 ## Tools
 

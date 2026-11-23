@@ -2,7 +2,7 @@
   "mcpServers": {
     "foodoo": {
       "type": "http",
-      "url": "https://api.foodoo.fit/mcp"
+      "url": "https://mcp.foodoo.fit"
     }
   }
 }
